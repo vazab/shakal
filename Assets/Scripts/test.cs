@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class test : MonoBehaviour
+public class Test : MonoBehaviour
 {
-
-
     void Start()
     {
         //Create 2 random Arrays
@@ -26,7 +24,7 @@ public class test : MonoBehaviour
         
         //Arrays merge
         int[] unsortMassive = new int[array1.Length + array2.Length];
-
+        
         for (int i = 0; i < array1.Length; i++)
         {
             unsortMassive[i] = array1[i];
